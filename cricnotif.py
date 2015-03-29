@@ -23,7 +23,7 @@ while True:
 
     soup = BeautifulSoup(r.text)
     data = soup.find_all("div", class_='esc-lead-snippet-wrapper')
-    for head in data[5:10]:
+    for head in data[0:10]:
     	score = head.text[:128]
     	score=score+'...\n -sreenu'
     	#sendmessage('News', score)
