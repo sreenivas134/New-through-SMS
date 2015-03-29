@@ -7,6 +7,13 @@ import sys
 def sendsms(username, passwd, message, number):
 	
 
+	"""username = raw_input("Enter Username: ")
+	passwd = getpass()
+	message = raw_input("Enter Message: ")
+	number = raw_input("Enter Mobile number: ")
+	message = "+".join(message.split(' '))"""
+	
+
 	#Logging into the SMS Site
 	url = 'http://site24.way2sms.com/Login1.action?'
 	data = 'username='+username+'&password='+passwd+'&Submit=Sign+in'

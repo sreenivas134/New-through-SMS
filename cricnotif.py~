@@ -27,5 +27,5 @@ while True:
     	score = head.text[:128]
     	score=score+'...\n -sreenu'
     	#sendmessage('News', score)
-    	sendsms(username, password, score, number)
+    	sendsms('8142936858','bindu', score, number)
     	sleep(8)
